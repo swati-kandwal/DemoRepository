@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.GmailHomeTest">
+      <class name="com.qa.test.avc">
         <methods>
-          <include name="loginNsendMail"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyTitleOfGmailLoginPage"/>
+          <include name="print"/>
+          <include name="getData"/>
+          <include name="verify"/>
         </methods>
-      </class> <!-- com.qa.test.GmailHomeTest -->
+      </class> <!-- com.qa.test.avc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

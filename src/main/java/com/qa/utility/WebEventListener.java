@@ -5,10 +5,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.testng.ITestListener;
 
 import com.qa.base.Base;
 
-public class WebEventListener extends Base implements WebDriverEventListener {
+public class WebEventListener extends Base implements WebDriverEventListener  {
 
 	@Override
 	public void beforeNavigateTo(String url, WebDriver driver) {
