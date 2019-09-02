@@ -43,7 +43,10 @@ public class Utility extends Base {
 
 	@DataProvider(name="getAllData")
 	public static Object[][] getDataFromExcel() {
+
 		System.out.println("This is method to get data from excel>>>>>>>>>>>");
+		System.out.println("Entering getDataFromExcel>>>>>>>>>>>");
+		
 		Object[][] object = null;
 
 		try {
